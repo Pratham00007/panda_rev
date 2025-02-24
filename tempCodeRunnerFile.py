@@ -1,17 +1,5 @@
-# read upper 5
-# print(data.head(5))
-# # read lower 5
-# print(data.tail(5))
+# unique entries of population
+# print(data['population'].drop_duplicates())
 
-# # give info
-# print(data.info())
-
-# # describe: mean count max etc
-# print(data.describe())
-
-# #  which is null
-# print(data.isnull())
-
-
-# #  which is null
+# # no of null value
 # print(data.isnull().sum())
